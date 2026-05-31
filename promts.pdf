@@ -1,0 +1,111 @@
+1>
+Summarising Notes
+=>Prompt Written:
+You are an expert academic summarizer. I have the following lecture notes on Data
+Structures. Please summarize them in bullet points with the following structure: 1. Main
+Topic 2. Key Concepts (max 5 points) 3. Important Definitions 4. One-line Takeaway Notes: 'A
+stack is a linear data structure that follows the LIFO principle. Operations include push, pop,
+peek, and isEmpty. Stacks are used in function call management, undo operations, and
+expression evaluation. A queue follows FIFO. Operations: enqueue, dequeue, front, rear.
+Queues are used in CPU scheduling and BFS.
+=>AI Response:
+1. Main Topic: Linear Data Structures — Stacks and Queues 2. Key Concepts: • Stack follows
+LIFO (Last In, First Out) — the last element added is the first removed. • Stack operations:
+push (insert), pop (remove), peek (view top), isEmpty (check empty). • Queue follows FIFO
+(First In, First Out) — the first element added is the first removed. • Queue operations:
+enqueue (insert), dequeue (remove), front, rear. • Both are fundamental for organizing and
+processing data in ordered ways. 3. Important Definitions: • LIFO: Last In, First Out — e.g., a
+pile of plates. • FIFO: First In, First Out — e.g., a queue at a ticket counter. • Push: Adding an
+element to the top of a stack. • Enqueue: Adding an element to the rear of a queue. 4. Oneline Takeaway: Stacks and queues are essential linear data structures that manage data
+order using LIFO and FIFO principles respectively, with real-world use in system design.
+
+2> Generating a Study Plan
+=>Prompt Written:
+Act as an academic study coach. I have my end-semester exam in 30 days. I need to study
+the following subjects: Data Structures (hard), DBMS (medium), Python (easy), Computer
+Networks (hard). Create a 4-week study plan with: - Daily study hours (I can do 3 hours/day)
+- Weekly goals for each subject - Last week reserved for revision and mock tests Format it as
+a week-by-week plan.
+=>AI response:
+4-Week Exam Study Plan (3 hours/day) Week 1 — Building Foundations Mon-Tue: Data
+Structures — Arrays, Linked Lists, Stacks, Queues (1.5 hrs) Wed-Thu: Computer Networks —
+OSI Model, TCP/IP, Physical & Data Link Layer (1.5 hrs) Fri-Sat: DBMS — ER Diagrams,
+Relational Model, Keys & Constraints (1.5 hrs) Sun: Python — Variables, Control Flow,
+Functions (1 hr) + Rest (0.5 hr) Week 2 — Deep Dive Mon-Tue: DS — Trees (Binary, BST, AVL),
+Heaps (1.5 hrs) Wed-Thu: CN — Network Layer, IP Addressing, Routing Algorithms (1.5 hrs)
+Fri-Sat: DBMS — SQL (DDL, DML, DCL), Joins, Subqueries (1.5 hrs) Sun: Python — OOP, File
+Handling, Libraries (1 hr) + Review (0.5 hr) Week 3 — Advanced Topics Mon-Tue: DS —
+Graphs (BFS, DFS, Dijkstra), Sorting Algorithms (1.5 hrs) Wed-Thu: CN — Transport Layer
+(TCP/UDP), Application Layer, HTTP/FTP (1.5 hrs) Fri-Sat: DBMS — Normalization (1NFBCNF), Transactions, ACID (1.5 hrs) Sun: Python — Exception Handling, Modules, Practice
+Problems (1 hr) Week 4 — Revision + Mock Tests Mon-Tue: Full revision of DS + CN WedThu: Full revision of DBMS + Python Fri-Sat: Solve 2 full mock question papers (3 hrs each
+day) Sun: Review weak areas + Rest before exams
+
+3>Creating Interview Questions
+=>Prompt Written
+You are a senior software engineer conducting a technical interview for a Python Developer
+Intern role at a product-based company. Create 10 interview questions — a mix of: - 4
+conceptual questions (theory-based) - 4 coding/practical questions (with brief expected
+answer hints) - 2 behavioral questions (using the STAR format) The candidate is a final-year
+B.Tech student with 6 months of Python experience
+=>AI response
+Conceptual Questions: 1. What is the difference between a list and a tuple in Python? When
+would you use one over the other? (Expected: Mutability — lists are mutable, tuples are
+immutable. Tuples are faster and used for fixed data.) 2. Explain Python's GIL (Global
+Interpreter Lock). How does it affect multi-threading? (Expected: GIL prevents true parallel
+execution of threads. Use multiprocessing for CPU-bound tasks.) 3. What are Python
+decorators? Write a simple logging decorator. (Expected: Functions that wrap other
+functions to add functionality without modifying them.) 4. Explain the difference between
+deep copy and shallow copy with an example. (Expected: Shallow copies reference the same
+nested objects; deep copies create fully independent copies.) Coding/Practical Questions: 5.
+Write a Python function to find the second largest element in a list without sorting. 6.
+Reverse a string without using slicing or built-in reverse methods. 7. Write a program to read
+a JSON file and count the frequency of each word in a 'description' field. 8. Implement a
+simple stack using Python lists with push, pop, and peek methods. Behavioral Questions
+(STAR Format): 9. Tell me about a time you debugged a difficult problem in your project.
+What was the Situation, Task, Action, and Result? 10. Describe a situation where you had to
+learn a new technology quickly to meet a deadline. How did you handle it?
+
+4>Writing a Resume Summary
+=>prompt Written
+Act as a professional resume writer with 10 years of experience in tech recruitment. Write a
+powerful resume summary (3-4 lines) for a candidate with the following profile: - Name:
+Arjun Sharma - Degree: B.Tech Computer Science (2026 grad) - Skills: Python, Machine
+Learning, SQL, Flask, Git - Projects: ML-based sentiment analyzer (90% accuracy), REST API
+with Flask - Internship: 2-month Python Developer intern at a startup - Goal: Full-stack AI
+Developer role at a product-based company Make it ATS-friendly, action-verb-led, and
+confident in tone
+=>AI Response
+Resume Summary — Arjun Sharma Results-driven Computer Science graduate (B.Tech 2026)
+with hands-on experience in Python, Machine Learning, and REST API development. Built a
+sentiment analysis model achieving 90% accuracy and developed scalable Flask-based APIs
+during a Python Developer Internship. Proficient in SQL, Git, and end-to-end ML pipelines.
+Seeking a Full-Stack AI Developer role to contribute to innovative, data-driven product
+teams.
+
+5>Creating a Lesson Plan
+=>Prompt Written
+You are an experienced computer science instructor. Create a 1-hour lesson plan for teaching
+'Introduction to Machine Learning' to B.Tech second-year students who know Python basics
+but have no prior ML knowledge. Include the following sections: 1. Learning Objectives (3
+points) 2. Time-boxed Lesson Breakdown (60 minutes total) 3. Key Teaching Points 4.
+Activity/Exercise for students 5. Assessment question for end of class Keep it engaging,
+practical, and beginner-friendly.
+=>AI Response
+Lesson Plan: Introduction to Machine Learning Level: B.Tech 2nd Year | Duration: 60 minutes
+| Prerequisites: Python basics 1. Learning Objectives: • Understand what Machine Learning
+is and how it differs from traditional programming. • Identify the three main types of ML:
+supervised, unsupervised, and reinforcement learning. • Implement a basic ML model using
+Python's scikit-learn library. 2. Time-boxed Lesson Breakdown: 0:00 - 0:10 — Ice-breaker:
+Ask students to name apps they use daily (Netflix, Spotify) → reveal these use ML. 0:10 -
+0:20 — Theory: What is ML? Traditional programming vs ML (diagram on board). 0:20 - 0:30
+— Types of ML: Supervised (labelled data), Unsupervised (clustering), Reinforcement
+(reward-based). 0:30 - 0:45 — Live Coding Demo: Train a simple Linear Regression model on
+a salary dataset using scikit-learn. 0:45 - 0:55 — Student Exercise: Modify the model to
+predict house prices using a given dataset. 0:55 - 1:00 — Q&A + Summary + Assign reading.
+3. Key Teaching Points: • ML = letting data teach the computer instead of writing rules
+manually. • Features (inputs) and Labels (outputs) are the core building blocks of supervised
+learning. • scikit-learn simplifies ML with fit(), predict(), and score() functions. 4. Activity:
+Provide students a CSV with house area vs price. Ask them to train a Linear Regression
+model and predict the price for 1200 sq ft. 5. End-of-Class Assessment Question: Q: You are
+given a dataset of 10,000 emails labelled 'spam' or 'not spam'. Which type of ML would you
+use to train a spam detector? Justify your answer.
